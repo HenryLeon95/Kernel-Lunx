@@ -87,7 +87,7 @@ static int __init test_init(void)
     }
     else
     {
-        printk(KERN_INFO "@timestamps-module iniciado\n");
+        printk(KERN_INFO "@timestamps-module iniciado\n"); //Irmpime en el kernel -> printk
     }
     return 0;
 }
